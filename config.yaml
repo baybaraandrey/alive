@@ -1,0 +1,11 @@
+hosts:
+  - addr: 127.0.0.1
+    interval: 1s
+    read-timeout: 10s
+    packet-size: 0
+    ttl: 64
+  - addr: google.com
+    interval: 5s
+    read-timeout: 10s
+    packet-size: 0
+    ttl: 64
